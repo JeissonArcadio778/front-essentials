@@ -1,0 +1,35 @@
+body{
+    font-size: 25px;
+}
+
+p{
+    color: cadetblue;
+}
+
+h1{
+    color: brown;
+}
+
+.liFruits{
+
+    color: chocolate;
+
+}
+.liMeats{
+
+    color: red;
+
+}
+.liVegetables{
+
+    color: mediumorchid;
+
+}
+
+li{
+    color: gray;
+}
+
+html{
+    background-color: aquamarine;
+}

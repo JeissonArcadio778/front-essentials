@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+</head>
+<body>
+    <!-- Existen dos formas. -->
+
+    <!-- primera forma -->
+    <form action="">
+        <!-- form como el contendor del formulario entero -->
+        <label for="hora">
+            <span>Hora</span>
+            <!-- span, texto del input -->
+            <input type="time" id ="hora" name ="hora">
+            <!-- name nos sirve para enviar esta información -->
+        </label>
+        <label for="dia">
+            <span>Dia</span>
+            <input type="date" id="dia" name="dia">
+        </label>
+        <label for="semana">
+            <span>Semana</span>
+            <input type="week" name="semana" id="semana">
+        </label>
+        <label for="mes">
+            <span>Mes</span>
+            <input type="month" name="mes" id="mes">
+        </label>
+        <input type="submit">
+        <!-- submit enviar -->
+        <!-- Un poco de javascript ya melo pa la BD -->
+    </form>
+    
+    <!-- segunda forma -->
+    <!-- Esta parece mucho mejor -->
+    <form action="">
+        <label for="Calendar">
+            <span> Calendar</span>
+            <input type="datetime-local" id="Calendar" name="Calendar">
+        </label>
+        <input type="submit">
+    </form>
+</body>
+</html>

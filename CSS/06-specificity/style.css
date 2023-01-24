@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page-main__title {
+    color: aquamarine;
+    margin: 20px;
+}
+
+.main-nav {
+    list-style-type: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    color: blueviolet;
+}
+
+.main-nav a {
+    color: inherit; 
+    background-color: orange;
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav .main-nav__item--blog {
+    background-color: red;
+}

@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    color: palegreen;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+/* utilizando id  
+#page-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+
+}
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#main-nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0%;
+por qué cero padding
+  
+}
+
+esto es para indicar que son las que están aquií
+adentro
+#main-nav li{
+    display: inline-block;
+
+}
+
+#main-nav a{
+
+    font-size: 25px;
+    color: white; 
+    background-color: #13a4a4;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+AGREGARLE ESTILOS SOLO A UNO DE ESTOS IL */
+ /*LE CREAMOS UNA CLASE
+
+#main-nav .blog{
+    background-color: orange;
+}
+
+*/
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0%;
+/* por qué cero padding */ 
+}
+
+.nav a{
+
+    font-size: 25px;
+    color: white; 
+    background-color: #13a4a4;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+/* pesan más dos clases */
+
+.nav .blog{
+    background-color: orange;
+}

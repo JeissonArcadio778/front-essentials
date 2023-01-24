@@ -1,0 +1,14 @@
+html{
+    /* tamaño letras */
+    font-size: 200%;
+    /* fuente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: aqua; */
+}
+
+/* para que herede: Inherit */
+
+h1{
+    font-size: inherit;
+}
+

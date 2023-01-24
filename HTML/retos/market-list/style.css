@@ -1,0 +1,27 @@
+
+
+body{
+    
+    background-color: #d4d2ff;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+
+.pr-title{
+    font-size: 40px;
+    color: #18294d;
+}
+
+.sc-title{
+    /* font-size: 40px; */
+    color: #475b9f;
+}
+
+#my-favorite {
+    color: #6405b5;
+}
+
+

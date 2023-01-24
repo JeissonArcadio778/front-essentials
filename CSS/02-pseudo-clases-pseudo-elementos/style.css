@@ -1,0 +1,35 @@
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a {
+    /* a: que todas esas etiquetas
+    a que esten dentro de la clase 
+    aplicarle este estilo*/
+    color: white;
+    padding: 5px;
+    border-radius: 2px; 
+    /* borde  */
+    text-decoration: none;
+    /* cositas que pueda tener el texto */
+    /* background-color: red; */
+}
+
+/* Pseudoclase */
+.main-nav__item a:hover {
+    color: blue; 
+}.main-van__item a:active {
+    color: red;
+}
+/* Pseudoelemento */
+.main-nav__item a::after{
+    content: " | ";
+}

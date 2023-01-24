@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <video controls preload="auto">
+        <!-- preload no haya mucho tiempo de espera
+        para que se empiece a renderizar -->
+        <!-- con controls puedo usar controles -->
+        <!-- Para reproducir el video en un minuto 
+        en especifico, es como una estension en source#t=10,20 
+        Para organizar el formato,  SOURSE, para darle
+        diferentes fuentes-->
+        <source src="./video.MOV#t=11,20">
+        <source src="./video.mp4#t=11,20">
+    </video>
+      </section>
+    </main>
+  </body>
+</html>
