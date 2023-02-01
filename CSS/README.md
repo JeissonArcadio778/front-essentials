@@ -151,7 +151,7 @@ h2 + p {
 
 ## General Sibling (Hermano general)
 
-h2 + p {
+h2 ~ p {
     ... Put this styles to *all next* element (p) to h2
 }
 
@@ -162,7 +162,45 @@ div > p {
 }
 
 
+## descendant 
+
+div p {
+    ... all elements (p) inside div
+}
+
+## p:first-child 
+
+<div> *<p>*
+
+Examples: 
+
+:last-child selects all last-child elements.
+
+span:last-child selects all last-child span elements.
+
+ul li:last-child selects the last li elements inside of any ul.
+
+## :nth-child
+
+Examples: 
+
+:nth-child(8) selects every element that is the 8th child of another element.
+
+div p:nth-child(2) selects the second p in every div
 
 
+# Units - dimensions (medidas)
+
+## Absolutes: 
+
+ They are absolutes units into window. *Pixels* are defined and not change with the window size
+
+ px.
+
+## Relatives 
+
+They change with window size.
+
+### REM: 
 
 
