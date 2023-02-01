@@ -141,6 +141,27 @@ Example:
 
 Where I can see the specificity: in the console. If u see, u can determinate what kind of select you are using. 
 
+# Combinators:
+
+## Adjacent Siblings (hermano cercano)
+
+h2 + p {
+    ... Put this styles to *the next* element (p) to h2
+}
+
+## General Sibling (Hermano general)
+
+h2 + p {
+    ... Put this styles to *all next* element (p) to h2
+}
+
+## Child
+
+div > p {
+    ... where the dad is div and the direct child is p
+}
+
+
 
 
 
