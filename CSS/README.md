@@ -135,72 +135,134 @@ Example:
 
 # Selector Specificity 
 
-1. Important : .Styles browser .CSS Styles .!important 
-2. Specificity : 
-3. Sources order :
+    1. Important : .Styles browser .CSS Styles .!important 
+    2. Specificity : 
+    3. Sources order :
 
-Where I can see the specificity: in the console. If u see, u can determinate what kind of select you are using. 
+    Where I can see the specificity: in the console. If u see, u can determinate what kind of select you are using. 
 
 # Combinators:
 
 ## Adjacent Siblings (hermano cercano)
 
-h2 + p {
-    ... Put this styles to *the next* element (p) to h2
-}
+    h2 + p {
+        ... Put this styles to *the next* element (p) to h2
+    }
 
 ## General Sibling (Hermano general)
 
-h2 ~ p {
-    ... Put this styles to *all next* element (p) to h2
-}
+    h2 ~ p {
+        ... Put this styles to *all next* element (p) to h2
+    }
 
 ## Child
 
-div > p {
-    ... where the dad is div and the direct child is p
-}
+    div > p {
+        ... where the dad is div and the direct child is p
+    }
 
 
 ## descendant 
 
-div p {
-    ... all elements (p) inside div
-}
+    div p {
+        ... all elements (p) inside div
+    }
 
 ## p:first-child 
 
-<div> *<p>*
+    <div> *<p>*
 
-Examples: 
+    Examples: 
 
-:last-child selects all last-child elements.
+    :last-child selects all last-child elements.
 
-span:last-child selects all last-child span elements.
+    span:last-child selects all last-child span elements.
 
-ul li:last-child selects the last li elements inside of any ul.
+    ul li:last-child selects the last li elements inside of any ul.
 
 ## :nth-child
 
-Examples: 
+    Examples: 
 
-:nth-child(8) selects every element that is the 8th child of another element.
+    :nth-child(8) selects every element that is the 8th child of another element.
 
-div p:nth-child(2) selects the second p in every div
+    div p:nth-child(2) selects the second p in every div
 
 
 # Units - dimensions (medidas)
 
 ## Absolutes: 
 
- They are absolutes units into window. *Pixels* are defined and not change with the window size
+    They are absolutes units into window. *Pixels* are defined and not change with the window size
 
- px.
+    px.
 
 ## Relatives 
 
-They change with window size.
+    They change with window size.
 
 ### REM: 
 
 
+    html {
+        font-size: 62.5%; /* 10px*/  
+    }
+
+
+    p {
+        font-size: 1.6rem; /* 16px*/
+    }
+
+# Min/Max width
+
+*Rule*: When we will need to use min-max for width, we always should to use width (%) in the base (In percent). 
+
+    section {
+        width: 80%;
+        
+    *Rule* 
+        min-width: 320px;
+        max-width: 600px;
+        
+    *grow like u want*   
+        min-height: 500px;
+
+        background-color: #F48484;
+        /* Center auto position */
+        margin: 0 auto; 
+    }
+
+
+# Position
+
+The form to manipulate the contends, boxes, elements in HTML. 
+
+The defect position is static. 
+
+- Static
+
+We can use top, left, right, bottom 
+- Absolute 
+- Relative
+- Fixed
+- Sticky
+
+Example: 
+
+    .content {
+        border: 2px black dotted;
+        display: inline-block;
+    }
+
+    .content__box {
+        display: inline-block;
+        background-color: brown;
+        width: 100px;
+        height: 100px;
+    }
+
+    .content__box:nth-child(2) {
+        position: relative;
+        top: 20px;
+        background-color: indianred;
+    }

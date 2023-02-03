@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+     border: 2px black dotted;
+     display: inline-block;
+}
+
+.content__box {
+    display: inline-block;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+.content__box:nth-child(2) {
+    position: relative;
+    top: 20px;
+    background-color: indianred;
+}
