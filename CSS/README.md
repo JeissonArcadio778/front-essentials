@@ -19,18 +19,18 @@ Only classes. They use the model in components.
 
 Structure: .block__element--modifier. 
 
-- Block: independent parts of the web site. They have sense by themselves. And we can reuse this use. 
+*Block*: independent parts of the web site. They have sense by themselves. And we can reuse this use. 
 
     .block
 
     Example: .header
              .my-block-compound. 
             
-            We have a buttom. We can give this name like'buttom'. Or a post/like a instagram post. Use can reuse a post.  
+            We have a button. We can give this name like'button'. Or a post/like a instagram post. Use can reuse a post.  
 
             A menu of a website: .menu-
 
-- Elements: is dependent to block. And no has sense by himself.
+*Elements*: is dependent to block. And no has sense by himself.
 
     .block__element
 
@@ -42,16 +42,16 @@ Structure: .block__element--modifier.
 
         .menu__button {}
 
-    *Attention*: 
+    Attention: 
         
         We can confuse element with block.  For find a solution for that, we can ask us: That part of the code is independent of the rest? 
 
         Elements doesn't have subElements. They are uniques. 
 
-- Modifiers: they exists to change the appearance and behavior (comportamiento) to blocks and elements. 
+*Modifiers*: they exists to change the appearance and behavior (comportamiento) to blocks and elements. 
 
     - .block--modifier, for modify a block
-        Example: button--primary | button--secondary
+        Example: button--primary || button--secondary
 
     - .block__element--modifier, for modify a element
 
@@ -103,7 +103,7 @@ All in HTML are boxes, we use that boxes to create websites.
 
     - Width: the size of the content. The large. 
 
-    - Height: the sized of the content. The high. 
+    - Height: the size of the content. The high. 
 
 Always need to put in the codes: 
 
@@ -139,7 +139,7 @@ Example:
     2. Specificity : 
     3. Sources order :
 
-    Where I can see the specificity: in the console. If u see, u can determinate what kind of select you are using. 
+    Where can I see the specificity? in the console. If u see, u can determinate what kind of select you are using. 
 
 # Combinators:
 
@@ -193,9 +193,9 @@ Example:
 
 ## Absolutes: 
 
-    They are absolutes units into window. *Pixels* are defined and not change with the window size
+    There are absolutes units into window. *Pixels* are defined and not change with the window size
 
-    px.
+    *px*.
 
 ## Relatives 
 
