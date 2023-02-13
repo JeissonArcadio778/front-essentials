@@ -268,3 +268,21 @@ Example:
     }
 
 # Display 
+
+## Block: 
+
+Estos toman el 100% del width, por lo que un elemento no puede posicionarse a un lado de el.
+Se le puede poner el width deseado, height deseado, añadir margin, padding sin problema. Pero recordando que ocupara este elemento todo el largo de una Fila por asi decirlo.
+
+
+## Inline: 
+    
+Estos elementos solo ocuparan el ancho dependiento de su contenido. Por lo tanto estos elementos si permiten que si un elemento cabe a lado suyo, se posicione este ahi.
+
+Las *desventajas* es que no se les puede modificar el width, height, ni colocar margin u padding tanto top, como bottom; left y right sí. 
+
+
+## Inline-block: 
+
+Este tiene la combinación de los 2 anteriores. Haciéndolo un mejor candidato para usarlo.
+Permite modificar su width, height, añadirle margin, padding sin problemas y lo mejor es que mientras que haya espacio a un lado suyo, este permitirá posicionar mas elementos ahi.
