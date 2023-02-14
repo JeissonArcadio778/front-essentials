@@ -7,11 +7,14 @@ main {
     background-color: #D61355;
     width: 100vw;
     height: 100vh;
+
+    padding-top: 100px;
 }
 .content {
     border: 2px black solid;
     border-radius: 15px;
     background-color: #F94A29;
+
     width: 600px;
     height: 400px;
     
@@ -27,7 +30,7 @@ main {
     height: 50px;
 
     position: absolute;
-    top: 35px;
+    top: 135px;
     left: 540px;
     width: 300px;
 
