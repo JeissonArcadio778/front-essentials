@@ -286,3 +286,5 @@ Las *desventajas* es que no se les puede modificar el width, height, ni colocar 
 
 Este tiene la combinación de los 2 anteriores. Haciéndolo un mejor candidato para usarlo.
 Permite modificar su width, height, añadirle margin, padding sin problemas y lo mejor es que mientras que haya espacio a un lado suyo, este permitirá posicionar mas elementos ahi.
+
+*NOTA*: debe ser la misma clase de elementos o con mismo nombre. 

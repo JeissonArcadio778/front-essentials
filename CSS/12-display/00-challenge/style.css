@@ -1,5 +1,84 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  height: 10vh;
+  background-color: palegoldenrod;
+}
+
+figure {
+    margin: 1rem;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 1.5rem;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 1rem;
+}
+
+main {
+    height: 80vh;
+}
+
+aside {
+  background-color: paleturquoise;
+  display: inline-block;
+  height: 80vh;
+  width: 20vw;
+  
+}
+
+aside div {
+  background-color: papayawhip;
+  height: 15vh;
+  margin: 3vh;
+  padding-top: 6vh;
+  padding-left: 7vw;
+  border-radius: 10px;
+}
+
+section {
+  background-color: palegreen;
+  display: inline-block;
+  height: 80vh;
+  position: absolute;
+  /* left: 20vw; */
+  width: 80vw;
+  padding: 1rem;
+}
+
+footer {
+  height: 10vh;
+  background-color: palevioletred;
+}
+
+.footer-social{
+  display: inline-block;
+    margin: 1rem;
+}
+
+.footer-info {
+  display: inline-block;
+  margin: 1rem;
+  position: absolute;
+  right: 1.5rem;
 }
