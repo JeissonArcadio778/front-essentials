@@ -1,0 +1,34 @@
+
+
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: palegreen;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Psudoclase: cambia el comportamiento */
+
+.main-nav__item a:hover{
+    color: brown;
+}
+.main-nav__item a:active {
+    color: blue;
+}
+
+/* Pseudoelemento: cambia el elemento */
+
+.main-nav__item a::after {
+    content: " | ";
+}
