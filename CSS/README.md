@@ -19,36 +19,36 @@ Only classes. They use the model in components.
 
 Structure: .block__element--modifier. 
 
-*Block*: independent parts of the web site. They have sense by themselves. And we can reuse this use. 
+### *Block*: independent parts of the web site. They have sense by themselves. And we can reuse this use. 
 
-    .block
+.block
 
-    Example: .header
-             .my-block-compound. 
-            
-            We have a button. We can give this name like'button'. Or a post/like a instagram post. Use can reuse a post.  
-
-            A menu of a website: .menu-
-
-*Elements*: is dependent to block. And no has sense by himself.
-
-    .block__element
-
-    Example: the elements in a menu. We can use elements to modify him. 
-
-        .menu {} 
-
-        .menu__logo {}
-
-        .menu__button {}
-
-    Attention: 
+Example: .header
+            .my-block-compound. 
         
-        We can confuse element with block.  For find a solution for that, we can ask us: That part of the code is independent of the rest? 
+        We have a button. We can give this name like'button'. Or a post/like a instagram post. Use can reuse a post.  
 
-        Elements doesn't have subElements. They are uniques. 
+        A menu of a website: .menu-
 
-*Modifiers*: they exists to change the appearance and behavior (comportamiento) to blocks and elements. 
+### *Elements*: is dependent to block. And no has sense by himself.
+
+.block__element
+
+Example: the elements in a menu. We can use elements to modify him. 
+
+    .menu {} 
+
+    .menu__logo {}
+
+    .menu__button {}
+
+Attention: 
+    
+    We can confuse element with block.  For find a solution for that, we can ask us: That part of the code is independent of the rest? 
+
+    Elements doesn't have subElements. They are uniques. 
+
+### *Modifiers*: they exists to change the appearance and behavior (comportamiento) to blocks and elements. 
 
     - .block--modifier, for modify a block
         Example: button--primary || button--secondary
@@ -61,9 +61,9 @@ Structure: .block__element--modifier.
 
 # Pseudo-classes and Pseudo-elements
 
-    Pseudo classes: it modify to special status of element.
+Pseudo classes: it modify to special status of element.
 
-    Pseudo-elements: it modify a part of element.
+Pseudo-elements: it modify a part of element.
 
     Example: 
 
