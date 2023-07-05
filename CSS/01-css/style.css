@@ -1,13 +1,15 @@
 /* element */
 p{
-    color: blue;
+    color: #852128;
     font-size: 60px; 
+    color: lawngreen;
 }
 
 /* class */
 
 .parrafo{
     color: aquamarine;
+    background-color: beige;
 }
 
 /* id */
