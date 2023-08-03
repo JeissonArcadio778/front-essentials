@@ -1,4 +1,5 @@
 # Frontend Developer 
+This is for lokita Software!
 
 ## HTML
 Intial structure
@@ -30,3 +31,12 @@ HTML but in the Browser
 4. Paint the different boxes 
 5. Take a picture a show the result
 
+## HTML Anatomic 
+
+```
+<h1 class = "title"> Hello World </h1>
+```
+
+h1 --> Element
+class = --> Attribute 
+"title" --> Value 
