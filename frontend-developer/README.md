@@ -40,3 +40,12 @@ HTML but in the Browser
 h1 --> Element
 class = --> Attribute 
 "title" --> Value 
+
+## HTML Semantic 
+Use elements, label with meaning
+
+- Helps to be accesibility 
+- Better position in internet/SEO
+- Code more beautiful
+
+div, not has means...but is necessary for times
