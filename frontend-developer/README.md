@@ -49,3 +49,38 @@ Use elements, label with meaning
 - Code more beautiful
 
 div, not has means...but is necessary for times
+
+
+## CSS Anatomy
+
+```css
+h1 {
+    color: pink;
+}
+
+```
+
+h1 -> Selector 
+color -> Property
+pink -> value
+
+
+## Selector Types
+
+Type: div
+
+class: .element
+
+id: #id_element
+
+attribute: <a style:>
+
+universal: *
+
+## Combinators:
+
+Descendientes: div p -> Todos los p siguientes
+Hijo directo: div > p -> Only first child
+Elemento adyaente: div + p -> Only next element
+General de hermanos: div ~ p -> the next elements to div
+
