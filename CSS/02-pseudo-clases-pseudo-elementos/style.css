@@ -1,6 +1,6 @@
 
 .main-nav {
-    margin-top: 10px;
+    margin-top: 15px;
     list-style: none;
     padding-left: 0;
     background-color: #13a4a4;
@@ -16,7 +16,7 @@
     aplicarle este estilo*/
     color: white;
     padding: 5px;
-    border-radius: 2px; 
+    border-radius: 10px;
     /* borde  */
     text-decoration: none;
     /* cositas que pueda tener el texto */
@@ -27,9 +27,13 @@
 .main-nav__item a:hover {
     color: blue; 
 }.main-van__item a:active {
-    color: red;
+    color: green;
 }
 /* Pseudoelemento */
 .main-nav__item a::after{
     content: " | ";
+}
+
+.main-nav__item a::before {
+    content: " - ";
 }
